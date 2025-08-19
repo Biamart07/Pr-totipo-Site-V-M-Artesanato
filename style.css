@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #FDFBF5;
+    color: #333
+}
+
+.destaque-paragrafo {
+    color : #333;
+    padding: 2px 4px;
+}
+
+p {
+    color: #333;
+    font-family: 'Montserrat', sans-serif; /* Fonte limpa e moderna para parágrafos */
+}
+
+.container {
+    margin: 5%;
+    display: flex; /* or inline-flex */
+    justify-content: space-between;
+    align-items: center; /* Alinha verticalmente ao centro */
+}
+
+.texto-container {
+    width: 600px; /* Limita a largura do texto */
+}
+
+ .titulo {
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+ }
+
+ .paragrafo {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+ }
