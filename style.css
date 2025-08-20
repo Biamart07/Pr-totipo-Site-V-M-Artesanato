@@ -23,7 +23,7 @@ p {
 }
 
 .container-header{
-    margin: 2% 9%;
+    margin: 1% 5%;
     display: flex; /* or inline-flex */
     justify-content: space-between;
     align-items: center; /* Alinha verticalmente ao centro */  
@@ -79,6 +79,7 @@ p {
 
 .imagem {
     border-radius: 16px;
+    max-width: 400px;
 }
 
 .main-header {
@@ -112,7 +113,7 @@ p {
     color: #555;
     font-weight: 500;
     transition: color 0.3s ease;
-    font-size: 24px;
+    font-size: 20px;
     font-family: 'Montserrat', sans-serif;
 }
 
