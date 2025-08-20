@@ -22,6 +22,13 @@ p {
     font-family: 'Montserrat', sans-serif; /* Fonte limpa e moderna para parágrafos */
 }
 
+.container-header{
+    margin: 2% 9%;
+    display: flex; /* or inline-flex */
+    justify-content: space-between;
+    align-items: center; /* Alinha verticalmente ao centro */  
+}
+
 .container {
     margin: 5% 10%;
     display: flex; /* or inline-flex */
@@ -57,7 +64,7 @@ p {
 }
 
 .links {
-    background-color:rgba(41, 189, 144, 0.76);
+    background-color:#e49464;
     width: 200px;
     text-align: center;
     border-radius: 16px;
@@ -72,4 +79,43 @@ p {
 
 .imagem {
     border-radius: 16px;
+}
+
+.main-header {
+    background-color: #b4bf99;
+    border-bottom: 1px solid #eee;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.main-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    max-width: 150px;
+    border-radius: 16px; /* Ajusta o tamanho da logo */
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-nav a:hover {
+    color: #C06A52; /* Terracota para o efeito hover */
 }
