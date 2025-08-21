@@ -34,6 +34,7 @@ p {
     display: flex; /* or inline-flex */
     justify-content: space-between;
     align-items: center; /* Alinha verticalmente ao centro */
+    min-height: 850px;
 }
 
 .texto-container {
@@ -60,10 +61,21 @@ p {
 
 .botoes {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+ .subtitulo{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
 }
 
 .links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
     background-color:#e49464;
     width: 200px;
     text-align: center;
@@ -75,6 +87,14 @@ p {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     box-shadow: 5px 5px grey;
+}
+
+.links:hover {
+    background-color: #bc6349;
+}
+
+.fa{
+    margin-top: 4px;
 }
 
 .imagem {
@@ -120,3 +140,4 @@ p {
 .main-nav a:hover {
     color: #C06A52; /* Terracota para o efeito hover */
 }
+
