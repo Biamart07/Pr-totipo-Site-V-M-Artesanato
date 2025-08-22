@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --cor-primaria: #be9491;
+    --cor-secundaria: #8A9074;
+    --cor-texto: #3b3a3a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FDFBF5;
+    color: #333
+}
+
+section {
+    padding: 60px 0;
+}
+
+.main-header {
+    background-color: #be9491;
+    padding: 1% 0 1% 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.main-header .container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    max-width: 10%;
+    border-radius: 16px; /* Ajusta o tamanho da logo */
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #3b3a3a;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-nav a:hover {
+    color: #C06A52;
+}
+
+.container-header{
+    margin: 0% 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Alinha verticalmente ao centro */  
+}
+
+.titulo {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+.paragrafo {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.hero-bg {
+    width: 100%;
+    height: 30vh;
+    background-image: url('/assets/img/hero_image_artesanato_semtexto.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 120px 0;
+}
+
+.hero-content h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+    background-color: #be9491; /* Cor terracota da logo */
+    color: #fcfcfc;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #8A9074;
+}
+
+main {
+    min-height: 500px;
+}
+
+.categories-section {
+    text-align: center;
+}
+
+.category-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.category-item {
+    flex-basis: 200px;
+}
+
+.category-icon {
+    width: 80px; /* Ajuste o tamanho dos ícones */
+    margin-bottom: 15px;
+}
+
+.rodape {
+    padding: 24px;
+    color:#3b3a3a;
+    background-color: #be9491;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.linksrodape {
+    text-decoration: none;
+    color:#3b3a3a;
+}
+
+.about-text {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    padding: 0 15% 0 15%;
+}
