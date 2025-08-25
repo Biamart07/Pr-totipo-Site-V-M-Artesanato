@@ -60,10 +60,27 @@ section {
     transition: color 0.3s ease;
     font-size: 1.25rem;
     font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+
+.main-nav a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #99402a;
+    transition: width 0.3s ease;
 }
 
 .main-nav a:hover {
-    color: #C06A52;
+    color: #99402a;
+}
+
+.main-nav a:hover::after {
+    width: 100%;
 }
 
 .titulo {
