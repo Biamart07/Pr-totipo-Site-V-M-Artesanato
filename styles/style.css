@@ -44,7 +44,7 @@ section {
     background-color: #fcfcfc;
     border:#be9491 dashed 4px;
     max-width: 10%;
-    border-radius: 16px; /* Ajusta o tamanho da logo */
+    border-radius: 16px;
 }
 
 .main-nav ul {
@@ -267,7 +267,16 @@ main {
         margin-top: 1em;
     }
 
-    .main-nav {
-        display: block;
+    .main-nav ul {
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0 7em;
+        font-size: 10px;
     }
+
+    .logo {
+        max-width: 25%;
+    }
+
 }
